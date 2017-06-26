@@ -1,0 +1,133 @@
+.image{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+img{
+    height: 92px;
+    width: 272px;
+}
+
+.searchbar{
+    width: 600px;
+    height: 40px;
+    margin-left: 350px;
+    font-size: 17px;
+    color:#333; 
+	background: #fff; 
+	border:solid 1px #d9d9d9; 
+	border-top:solid 1px #c0c0c0; 
+	border-right:none;
+}
+
+input[type="text"]:focus{
+    border-color: lightblue;
+}
+
+input[type="submit"]{
+    border:solid 1px #d9d9d9; 
+	border-top:solid 1px #c0c0c0; 
+	border-right:none;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #e8eaed;
+}
+
+#nsearch {
+    width: 130px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 510px;
+    font-size: 16px;
+}
+
+#ssearch {
+    width: 150px;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+.topbar{ 
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.topright{
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    top: 10px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#imagee{
+    padding: 22px;
+    font-size: 15px;
+}
+
+#gmaile{
+    padding: 22px;
+    font-size: 15px;
+}
+
+#signin{
+    background-color: #4286f4;
+    height: 38px;
+    width: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#signin:hover{
+    background-color: #2d76ed;
+}
+
+.bottombarleft{
+    background-color: #e3e6ea;
+    width: 50%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.bottombarright{
+    background-color: #e3e6ea;
+    width: 50%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    float:right;
+}
+
+a{
+    display: block;
+    color: #646568;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.leftt{
+    float: left;
+}
+.rightt{
+    float: right;
+}
